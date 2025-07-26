@@ -181,7 +181,6 @@ process.on('uncaughtException', (error) => {
     console.log('Uncaught Exception:', error.message);
     process.exit(1); // Exit the process after logging the error
 });
-});
 
 process.on('unhandledRejection', (reason, promise) => {
     console.log('Unhandled Rejection at:', promise, 'reason:', reason);
