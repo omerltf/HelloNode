@@ -1,0 +1,23 @@
+{
+  "name": "node-learning-examples",
+  "version": "1.0.0",
+  "description": "A comprehensive Node.js learning project with examples",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript",
+    "learning",
+    "examples",
+    "tutorial"
+  ],
+  "author": "Node.js Learner",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
